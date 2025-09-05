@@ -1,0 +1,47 @@
+{
+  "version": "1.0",
+  "location_name": "宁波财经学院南区",
+  "ar_targets": [
+    {
+      "id": 1,
+      "name": "图书馆正门",
+      "type": "landmark",
+      "latitude": 29.1234567,
+      "longitude": 121.9876543,
+      "altitude": 10.5,
+      "content": {
+        "type": "text",
+        "title": "图书馆",
+        "description": "馆藏图书100万册，开放时间：8:00-22:00"
+      }
+    },
+    {
+      "id": 2,
+      "name": "咖啡厅打卡点",
+      "type": "checkpoint",
+      "latitude": 29.1234444,
+      "longitude": 121.9876333,
+      "altitude": 8.2,
+      "content": {
+        "type": "image",
+        "title": "快来打卡！",
+        "uri": "textures/coffee_icon.png",
+        "action": "check_in"
+      }
+    },
+    {
+      "id": 3,
+      "name": "体育馆AR海报",
+      "type": "advertisement",
+      "latitude": 29.1235000,
+      "longitude": 121.9877000,
+      "altitude": 9.0,
+      "content": {
+        "type": "model",
+        "title": "篮球赛预告",
+        "uri": "models/basketball_game.glb",
+        "scale": 0.5
+      }
+    }
+  ]
+}
